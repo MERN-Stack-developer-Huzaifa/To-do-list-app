@@ -1,0 +1,145 @@
+
+
+body {
+    background-image: url(b36b1194-c332-4bc3-bea6-46c1493291f5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#section-1 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-main {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    width: 400px;
+    height: 500px;
+    border-radius: 100px 10px 100px 100px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+#input-task {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    padding: 5px 0;
+    font-size: 16px;
+    width: 250px;
+    background: transparent;
+    margin-top: 50px;
+}
+
+#button-1 {
+    width: 100px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: rgb(81, 216, 246);
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#button-1:hover {
+     animation: button-scale 0.8s infinite alternate ease-in-out ;
+     background-color: pink;
+    transition: 0.5s;
+}
+
+@keyframes button-scale {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+#sub-section-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+text-decoration: none;
+color: black;
+border: none;
+border-bottom: 2px solid pink;
+padding: 1px;
+width: 100%;
+margin-right: 100%;
+
+cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    border-color: rgb(81, 216, 246);
+}
+
+#days {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 150px;
+    border: 3px solid white;
+    backdrop-filter: blur(1000px);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+#inside-days {
+    background-color: white;
+    border: 3px solid pink;
+    color: #000;
+    cursor: pointer;
+    border-radius: 100px 10px 100px 100px;
+    padding: 12px;
+    font-size: 20px;
+}
+
+#inside-days:hover {
+    transform: scale(1.1);
+    background-color:  rgb(81, 216, 246);
+    border: none;
+    transition: 0.5s ease-out;
+}
+
+#home {
+    background-color: white;
+    border: 3px solid pink;
+    color: #000;
+    cursor: pointer;
+    border-radius: 100px 10px 100px 100px;
+    padding: 9px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+#home:hover {
+    transform: scale(1.1);
+    background-color:  rgb(81, 216, 246);
+    border: none;
+    transition: 0.5s ease-out;
+}
