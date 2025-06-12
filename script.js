@@ -7,7 +7,7 @@ button.addEventListener( 'click', () => {
     const submittedTask = document.createElement('li');
     submittedTask.textContent = task;
     taskList.appendChild(submittedTask);
-    
+    input.value = " "
 
     if(task === "") {
         alert('Please enter your task first')
